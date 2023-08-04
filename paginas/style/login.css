@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#paginalogin{
+    width: 100%;
+    height: 1010px;
+    background-color: #101010;
+}
+
+header{
+    width: 30%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+#logo{
+    background-image: url(imagens/happy\ tomato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+#logo:hover{
+    padding: 5px;
+}
+
+main{
+    width: 30%;
+    height: auto;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#titulo{
+    color: white;
+    margin: 20px auto;
+}
+
+nav{
+    width: 30%;
+    height: auto;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+input{
+    background-color: rgb(199, 43, 43);
+    border-radius: 2px;
+    border: solid rgb(199, 43, 43);
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+}
+
+::placeholder{
+    font-size: 15px;
+    color: black;
+}
+
+input:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1px;
+}
+
+#ladinho{
+    width: 30%;
+    height: 40px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#fazerlogin{
+    width: 180px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    border: rgb(199, 43, 43);
+    font-size: 15px;
+}
+
+button:hover{
+    padding: 1px;
+}
+
+#penta{
+    width: 180px;
+    height: auto;
+    display: flex;
+    align-items: center;    
+}
+
+#subpenta{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(199, 43, 43);
+}
+
+#subpenta:hover{
+    padding: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    color: black;
+}
+
+#voltar{
+    margin: 0px auto;
+    width: 30%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#jogadeladinho{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(199, 43, 43);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#jogadeladinho:hover{
+    padding: 1px;
+}
+

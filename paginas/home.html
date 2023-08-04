@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Animes</title>
+    <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMEÇO HEADER(NAV)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid bg-dark p-0 m-0" style="height: auto;">
+        <header class="container-fluid p-0" style="height: 50px;" >
+            <nav class="nav navbar-expand-sm d-flex justify-content-between">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="navbar-item"><img src="style/imagens/logo.webp" alt="" style="margin: 0px 5px 0px 10px;"></li>
+                    <li class="navbar-item fs-10 m-0 text-center"><p class="m-0 text-white">TOMATO</p><p class="m-0 text-danger">ANIMES</p></li>
+                </ul>
+                <ul class="navbar-nav d-flex gap-5 align-items-center" style="height: 50px;">
+                    <li class="navbar-item text-white"><a href="HOME" class="nav-link text-danger">HOME</a></li>
+                    <li class="navbar-item text-white"><a href="mangas.html" class="nav-link text-white">MANGAS</a></li>
+                    <li class="navbar-item text-white"><a href="FAVORITOS" class="nav-link text-white">FAVORITOS</a></li>
+                    <li class="navbar-item text-white"><a href="PERFIL" class="nav-link text-white">PERFIL</a></li>
+                </ul>
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="navbar-item"><img src="style/imagens/lupinha-removebg-preview.png" alt="" style="width: 20px; margin: 0px 20px;"></li>
+                    <li class="navbar-item"><img src="style/imagens/ada.jpg" alt="imagem da conta" style="border-radius: 100%; width: 40px;  margin: 0px 20px 0px 0px;"></li>
+                </ul>
+            </nav>
+        </header>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIM HEADER(NAV)    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMEÇO MAIN    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <main class="container-fluid bg-dark" style="width: 100%; height: auto;">
+            <div class="my-4 carousel slide" id="cape" data-bs-ride="carousel">
+                <div class="text-white"><h3>EM ALTA</h3></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#cape" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#cape" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#cape" data-bs-slide-to="2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#cape" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cape" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-inner" style="overflow: hidden;">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/blue-lock.jpg); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/black-clover-.webp); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/jujutsu-kaisen.webp); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/mushoku-tensei.webp); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/My-Love-Story-With-Yamada-kun-at-Lv999-visual-natal.png); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/one-piece.webp); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/suzume-filme-makoto-shinkai.webp); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/baki.jpg); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/zom-100-bucket-list-of-the-dead-key-visual.jpg); background-position: center; background-size: cover; height: 300px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="my-4 carousel slide" id="db" data-bs-ride="carousel">
+                <div class="text-white"><h3>DUBLADO</h3></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#db" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#db" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#db" data-bs-slide-to="2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#db" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#db" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-inner" style="overflow: hidden;">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>   
+                </div> 
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="my-4 carousel slide" id="AV" data-bs-ride="carousel">
+                <div class="text-white"><h3>AVENTURA</h3></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#AV" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#AV" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#AV" data-bs-slide-to="2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#AV" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#AV" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-inner" style="overflow: hidden;">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>   
+                </div> 
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="my-4 carousel slide" id="RM" data-bs-ride="carousel">
+                <div class="text-white"><h3>ROMANCE</h3></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#RM" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#RM" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#RM" data-bs-slide-to="2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#RM" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#RM" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-inner" style="overflow: hidden;">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>   
+                </div> 
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="my-4 carousel slide" id="SOL" data-bs-ride="carousel">
+                <div class="text-white"><h3>SLICE OF LIFE</h3></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#SOL" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#SOL" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#SOL" data-bs-slide-to="2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#SOL" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#SOL" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-inner" style="overflow: hidden;">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>   
+                </div> 
+            </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+            <div class="my-4 carousel slide" id="TVG" data-bs-ride="carousel">
+                <div class="text-white"><h3>TALVEZ VOCÊ GOSTE</h3></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#TVG" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#TVG" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#TVG" data-bs-slide-to="2"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#TVG" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#TVG" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-inner" style="overflow: hidden;">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 300px;">
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="container-fluid m-0 p-0">
+                                <div class="container rounded" style="background-image: url(style/imagens/animes/); background-position: center; background-size: cover; height: 350px; margin: 0px auto;">
+                                </div>
+                            </a>
+                        </div>
+                    </div>   
+                </div> 
+            </div>            
+        </main>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIM MAIN    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMEÇO FOOTER   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+        <footer class="container-fluid bg-dark d-flex justify-content-center align-items-center" style="height: 50px;">
+             <img src="style/imagens/logo.webp" alt="">       
+        </footer>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIM FOOTER    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+</body>
+</html>

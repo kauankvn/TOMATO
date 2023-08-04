@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrar-se</title>
+    <link rel="stylesheet" href="style/registrar-se.css">
+    <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <div id="logo"></div>
+        </header>
+        <main>
+            <div id="titulo">
+                <h2>SEJA BEM VINDO AO NOSSO SITE, VAMOS FAZER O SEU REGISTRO!</h2>
+            </div>
+        </main>
+        <form action="backend" method="post">
+            <nav>
+                <input type="text" required placeholder="Digite seu nome!">
+                <input type="text" required placeholder="Digite seu sobrenome!">
+                <input type="email" required placeholder="Digite seu Email!">
+                <input type="password" required placeholder="Digite sua senha!">
+            </nav>
+            <footer>
+                <button type="submit" onclick="finalizar()">finalizar registro!</button>
+            </footer>
+        </form>    
+        <div id="voltar">
+            <div id="jogadeladinho">
+                <a href="../index.html">Voltar para página Principal</a>
+            </div>
+        </div>
+</div>
+</body>
+</html>
