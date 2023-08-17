@@ -1,0 +1,14 @@
+#Pesquisar{
+    height: 30px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: none;
+    border-top:  1px solid lightgrey;
+    border-bottom:  1px solid lightgrey;  
+}
+#perfil{
+    margin: 0px 10px;
+}
+input::placeholder{
+    color: white;
+}
