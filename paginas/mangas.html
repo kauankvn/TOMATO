@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomato Mangas</title>
+    <link rel="stylesheet" href="style/home.css">
     <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
@@ -20,14 +21,18 @@ COMEÇO HEADER(NAV)
                     <li class="navbar-item fs-10 m-0 text-center"><p class="m-0 text-danger">TOMATO</p><p class="m-0 text-white">MANGAS</p></li>
                 </ul>
                 <ul class="navbar-nav d-flex gap-5 align-items-center" style="height: 50px;">
-                    <li class="navbar-item text-white"><a href="home.html" class="nav-link text-white">HOME</a></li>
+                    <li class="navbar-item text-white"><a href="home.html" class="nav-link text-white">INÍCIO</a></li>
                     <li class="navbar-item text-white"><a href="mangas.html" class="nav-link text-danger">MANGAS</a></li>
-                    <li class="navbar-item text-white"><a href="FAVORITOS" class="nav-link text-white">FAVORITOS</a></li>
-                    <li class="navbar-item text-white"><a href="PERFIL" class="nav-link text-white">PERFIL</a></li>
+                    <li class="navbar-item text-white"><a href="favoritos.html" class="nav-link text-white">FAVORITOS</a></li>
+                    <li class="navbar-item text-white"><a href="Perfil.html" class="nav-link text-white">PERFIL</a></li>
                 </ul>
                 <ul class="navbar-nav d-flex align-items-center">
-                    <li class="navbar-item"><img src="style/imagens/lupinha-removebg-preview.png" alt="" style="width: 20px; margin: 0px 20px;"></li>
-                    <li class="navbar-item"><img src="style/imagens/ada.jpg" alt="imagem da conta" style="border-radius: 100%; width: 40px;  margin: 0px 20px 0px 0px;"></li>
+                    <li class="navbar-item"><input class="form-control text-white" type="text" placeholder="Pesquisar" id="Pesquisar"></li>
+                    <li class="navbar-item" id="perfil">
+                        <a href="Perfil.html" class="nav-link text-danger">
+                            <img src="style/imagens/ada.jpg" alt="imagem da conta" style="border-radius: 100%; width: 40px;  margin: 0px 20px 0px 0px;">
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -52,7 +57,7 @@ COMEÇO MAIN
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
                     <div class="carousel-item active">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/black\ clover.png); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
@@ -76,7 +81,7 @@ COMEÇO MAIN
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/mato\ seihei\ no\ slave.webp); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
@@ -118,7 +123,7 @@ COMEÇO MAIN
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
                     <div class="carousel-item active">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/manga-olha-so/beastras.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
@@ -142,7 +147,7 @@ COMEÇO MAIN
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/manga-olha-so/naruto\ gold.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
@@ -183,7 +188,7 @@ COMEÇO MAIN
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
                     <div class="carousel-item active">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/manga-recomendações/arifureta.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
@@ -207,7 +212,7 @@ COMEÇO MAIN
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/manga-recomendações/iruma-kun.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
@@ -249,7 +254,7 @@ COMEÇO MAIN
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
                     <div class="carousel-item active">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/que-tal/zom\ 100.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
@@ -273,7 +278,7 @@ COMEÇO MAIN
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="d-flex justify-content-around align-items-center overflow-hidden" style="height: 500px;">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
                                 <div class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/blue\ lock.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>

@@ -4,11 +4,47 @@
     border-radius: 0px;
     border: none;
     border-top:  1px solid lightgrey;
-    border-bottom:  1px solid lightgrey;  
+    border-bottom:  1px solid lightgrey;
 }
 #perfil{
     margin: 0px 10px;
 }
 input::placeholder{
+    background-color: white;
+}
+.favoritosDescricao{
+    margin: 0px auto;
+    width: 50%;
+    height: auto;
     color: white;
+    border: 2px solid rgb(209, 6, 6);
+    padding: 20px;
+    display: none;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+.butaoLer{
+    width: 20%;
+    height: 30px;
+    background-color: black;
+    border: 2px solid rgb(209, 6, 6);
+    color: white;
+    border-radius: 5px;
+}
+.butaoLer:hover{
+    background-color: rgb(209, 6, 6);
+    color: black;
+    border: 2px solid white;
+}
+#fotoPerfil{
+    width: 250px;
+    height: 250px;
+    background-image: url(imagens/ada.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 100%;
 }

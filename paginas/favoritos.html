@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos</title>
+    <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style/home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMEÇO HEADER(NAV)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <div class="container-fluid bg-dark p-0 m-0" style="height: 95vh;">
+        <header class="container-fluid p-0" style="height: 50px;" >
+            <nav class="nav navbar-expand-sm d-flex justify-content-between">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="navbar-item"><img src="style/imagens/logo.webp" alt="" style="margin: 0px 5px 0px 10px;"></li>
+                    <li class="navbar-item fs-10 m-0 text-center"><p class="m-0 text-danger">TOMATO</p><p class="m-0 text-white">FAVORITOS</p></li>
+                </ul>
+                <ul class="navbar-nav d-flex gap-5 align-items-center" style="height: 50px;">
+                    <li class="navbar-item text-white"><a href="home.html" class="nav-link text-white">INÍCIO</a></li>
+                    <li class="navbar-item text-white"><a href="mangas.html" class="nav-link text-white">MANGAS</a></li>
+                    <li class="navbar-item text-white"><a href="favoritos.html" class="nav-link text-danger">FAVORITOS</a></li>
+                    <li class="navbar-item text-white"><a href="Perfil.html" class="nav-link text-white">PERFIL</a></li>
+                </ul>
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="navbar-item"><input class="form-control text-white" type="text" placeholder="Pesquisar" id="Pesquisar"></li>
+                    <li class="navbar-item" id="perfil">
+                        <a href="Perfil.html" class="nav-link text-danger">
+                            <img src="style/imagens/ada.jpg" alt="imagem da conta" style="border-radius: 100%; width: 40px;  margin: 0px 20px 0px 0px;">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIM HEADER(NAV)    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMEÇO MAIN    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->        
+<main class="container-fluid bg-dark" style="width: 100%; height: auto;">
+            <div class="my-4 carousel slide" id="MLDM" data-bs-ride="carousel">
+                <div class="text-white"><h3>MAIS LIDOS NO MOMENTO</h3></div>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#MLDM" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#MLDM" data-bs-slide-to="1"></button>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#MLDM" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#MLDM" data-bs-slide="next">
+                     <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-inner" style="overflow: hidden;"> 
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
+                            <div id="descricao1" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/black\ clover.png); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                            <div id="descricao2" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/blue\ lock.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                            <div id="descricao3" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/jujutsu\ kaisen.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                            <div id="descricao4" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/Kaiju8.webp); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                            <div id="descricao5" class="container rounded" style="background-image: url(style/imagens/mangas/manga-recomendações/iruma-kun.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
+                            <div id="descricao6" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/demon-slayer.webp); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>       
+                            <div id="descricao7" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/tengoku\ daimakyo.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                            <div id="descricao8" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/gokushufudou-poster.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                            <div id="descricao9" class="container rounded" style="background-image: url(style/imagens/animes/animes-rm/tomo-chan.jpe); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            </div>
+                            <div id="descricao10" class="container rounded" style="background-image: url(style/imagens/animes/animes-sol/komi\ can\'t.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;" >
+                            </div>
+                        </div>
+                    </div>   
+                </div> 
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito1">
+                <h3>Black Clover</h3>
+                <h4>Descrição</h4>
+                    <p>Num mundo onde magia é tudo, Asta e Yuno são abandonados em uma igreja no mesmo dia. Enquanto Yuno possui poderes mágicos excepcionais, Asta é a única pessoa do mundo todo desprovida desse dom. Aos quinze anos, ambos recebem grimórios – livros mágicos que amplificam os poderes do detentor. Asta recebe um raro grimório de anti-magia, capaz de negar e repelir os feitiços do oponente. Dois opostos que nutrem uma rivalidade amigável, Yuno e Asta estão prontos para encarar os mais difíceis desafios para conquistar seu sonho em comum: tornar-se o Rei dos Feiticeiros. Desistir não é opção!
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">LER</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito2">
+                <h3>Blue Lock</h3>
+                <h4>Descrição</h4>
+                    <p>Após sofrer um vexame na Copa do Mundo de 2018, a seleção japonesa sofre para se recompor. Falta ao time um artilheiro, uma estrela capaz de guiá-los à vitória. Com o intuito de criar um atacante com fome de bola e sede de vitória, capaz de virar jogos tidos como impossíveis, a Confederação Japonesa de Futebol reune 300 dos melhores jogadores de base do país em um só lugar. Centenas de jovens vão se enfrentar numa batalha de músculos e de egos para provar que são os melhores.
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">LER</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito3">
+                <h3>Jujutsu Kaisen</h3>
+                <h4>Descrição</h4>
+                    <p>Jujutsu Kaisen Yuji é um gênio do atletismo, mas não tem interesse algum em ficar correndo em círculos. Ele é feliz como membro no Clube de Estudo de Fenômenos Psíquicos. Apesar de estar no clube apenas por diversão, tudo fica sério quando um espírito de verdade aparece na escola! A vida está prestes a se tornar muito interessante na Escola Sugisawa…
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">LER</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito4">
+                <h3>Kaiju No 8</h3>
+                <h4>Descrição</h4>
+                    <p>O Japão é o lugar com o maior índice de aparição de monstros no mundo, sofrendo invasões todos os dias. No passado, Kafka Hibino almejava fazer parte das Forças de Defesa, mas atualmente trabalha para uma empresa especializada na limpeza dos resquícios das batalhas travadas com os monstros. Certo dia, o rapaz tem seu corpo transformado por uma criatura misteriosa e recebe o codinome "Kaiju no. 8" das Forças de Defesa do Japão, a organização responsável por subjugar os monstros!!
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">LER</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito5">
+                <h3>Welcome to Demon School! Iruma-kun</h3>
+                <h4>Descrição</h4>
+                    <p>A história acompanha Iruma Suzuki, um garoto normal de 14 anos que é adotado com neto de Sullivan, um demônio do reino dos demônios. Sullivian é o diretor de uma escola no outro mundo, e acaba matriculando Iruma lá. A partir daí, o garoto deve tentar manter sua identidade em segredo dos outros demônios para ter uma vida “normal” de estudante.
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">LER</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito6">
+                <h3>Kimetsu no Yaiba</h3>
+                <h4>Descrição</h4>
+                    <p>Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">ASSISTIR</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito7">
+                <h3>Tengoku Damaikyou</h3>
+                <h4>Descrição</h4>
+                    <p>Em 2024, o mundo entrou em colapso. Monstros grotescos se esgueiram em meio às ruínas do Japão, enquanto os sobrevivente juntam com dificuldade o que podem para sobreviver. Kiruko, uma faz-tudo de Nakano, aceita o pedido derradeiro de uma mulher misteriosa para levar um garoto chamado Maru ao Paraíso. Maru está convencido de que lá existe um garoto que é exatamente igual a ele.
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">ASSISTIR</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito8">
+                <h3>Gokushufudou - Tatsu Imortal</h3>
+                <h4>Descrição</h4>
+                    <p>Após desaparecer do submundo, o lendário membro da Yakuza conhecido como "Tatsu Imortal" volta em grande estilo: como bom marido e dono de casa.
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">ASSISTIR</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito9">
+                <h3>Tomo-chan</h3>
+                <h4>Descrição</h4>
+                    <p>omo Aizawa e Junichirou “Jun” Kubota são os irmãos mais rígidos que você já viu. Eles brigam e lutam, mas nos bons e maus momentos, eles protegem um ao outro. No entanto, há apenas um pequeno problema: Tomo está apaixonado por Jun! Desde jovem, a moleca Tomo é apenas mais um dos caras; devido à sua natureza extremamente musculosa, Jun não percebe nenhum de seus avanços – nem mesmo quando ela confessa explicitamente. Para adicionar insulto à injúria, por muito tempo, ele nem percebeu que ela era uma menina. Tomo-chan wa Onnanoko! segue os hijinks cômicos de Tomo e seus amigos enquanto ela tenta chamar a atenção de Jun e escapar do infame brozone.
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">ASSISTIR</button>
+                </div>
+            </div>
+            <div class="favoritosDescricao" id="descricaoFovorito10">
+                <h3>Komi-san wa, Comyushou desu.</h3>
+                <h4>Descrição</h4>
+                    <p>A história acompanha Komi Shouko, um das garotas mais bonitas da escola, que comumente é conhecida pela sua aura de superioridade e frieza. Porém, o que muitos não sabem é que essa “presença superiora” é resultado da sua completa falta de capacidade de comunicação, e agora cabe a Hitohito Tadano, o único que sabe do problema da garota, ajudá-la a aprender a se comunicar melhor.
+                    </p>
+                <div class="centro">
+                    <button type="button" class="butaoLer">ASSISTIR</button>
+                </div>
+            </div>
+        </main>
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIM MAIN    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COMEÇO FOOTER   
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <footer class="container-fluid bg-dark d-flex justify-content-center align-items-center" style="height: 50px;">
+        <img src="style/imagens/logo.webp" alt="">       
+   </footer>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIM FOOTER    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+
+</body>
+</html>
