@@ -39,12 +39,71 @@ input::placeholder{
     border: 2px solid white;
 }
 #fotoPerfil{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     background-image: url(imagens/ada.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 20px;
+    margin: 10px;
     border-radius: 100%;
+}
+.info{
+    display: flex;
+    height: auto;
+}
+.Sgd{
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
+.Sgd2{
+    width: 120px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+}
+#nome{
+    color: white;
+}
+#comentarioDeSe{
+    width: 300px;
+    height: 150px;
+    background-color: #212529;
+    color: white;
+    border: none;
+    margin: 10px 0px;
+}
+#perfil{
+    display: flex;
+    flex-direction: column;
+}
+#favoritos{
+    width: 300px;
+    margin: 10px 0px;
+    border: 1px solid lightgray;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+}
+#assitiuRecente{
+    width: 150px;
+    height: 250px;
+    background-color: aliceblue;
+    background-image: url(imagens/animes/animes-rm/spy\ x\ famlily.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.capitulos{
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color: lightgray;
 }

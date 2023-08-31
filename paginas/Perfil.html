@@ -42,18 +42,35 @@ FIM HEADER(NAV)
 COMEÇO MAIN    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
         <main class="container-fluid bg-dark" style="width: 100%; height: 90vh;"> 
-            <div>
+            <div class="info">
                 <div id="fotoPerfil"></div>
+                <div id="perfil">
+                    <h2 id="nome">カウアン</h2>
+                    <textarea name="" id="comentarioDeSe" cols="30" rows="10" placeholder="adicione comentarios de si."></textarea>
                     <div>
-                        <div class="info">Seguindo</div>
-                        <div class="info">Seguidores</div>
+                        <button class="Sgd">11 seguidores</button>
+                        <button class="Sgd2">7 Seguindo</button>
                     </div>    
+                    <button id="favoritos">10 Favoritos</button>
+                </div>    
             </div>
-
-
+            <div style="margin: 10px 0px;">
+                <h2 class="text-white">Assistiu recentemente</h2>
+                <div class="info">
+                    <div id="assitiuRecente"></div>
+                    <div style="background-color: rgb(31, 30, 30); width: 500px; height: auto; padding: 0px 10px;">
+                        <h3 class="text-white">SPY x FAMILY</h3>
+                        <p class="text-white">Spy × Family é uma série de mangá shōnen japonesa escrita e ilustrada por Tatsuya Endo. A história segue a vida de Twilight, um espião que precisa "formar uma família" de forma repentina para executar uma missão.</p>
+                        <hr style="border: 2px solid rgb(0, 0, 0);">
+                        <button style="border: 1px solid lightgray; border-radius: 5px; background-color: transparent; color: white; width: 100%; ">Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <div style="">
+                <h2 class="text-white">Últimos comentários</h2>
+                <textarea style="width: 300px; height: 150px; background-color: #212529; color: white; border: none;" cols="30" rows="10" placeholder="Sem nenhum comentário"></textarea>
+            </div>
         </main>
-
-
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FIM MAIN    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
