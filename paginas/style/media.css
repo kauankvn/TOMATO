@@ -1,0 +1,31 @@
+@media screen and (max-width : 650px){
+    .logo{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 950px){
+    .caixasTextos{
+        width: 380px;
+    }
+    #jogadeladinho{
+        width: 380px;
+    }
+    .finalizar{
+        width: 370px;
+    }
+}
+@media screen and (max-width: 1235px){
+    #ladinho{
+        height: 80px;
+        flex-direction: column;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 900px){
+    #menu{
+        display: block;
+    }
+    #menuopcoes{
+        display: none;
+    }
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tomato Animes</title>
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/media.css">
     <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
@@ -14,13 +15,14 @@
 COMEÇO HEADER(NAV)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <div class="container-fluid bg-dark p-0 m-0" style="height: auto;">
-        <header class="container-fluid p-0" style="height: 50px;" >
+        <header class="container-fluid p-0">
             <nav class="nav navbar-expand-sm d-flex justify-content-between">
                 <ul class="navbar-nav d-flex align-items-center">
                     <li class="navbar-item"><img src="style/imagens/logo.webp" alt="" style="margin: 0px 5px 0px 10px;"></li>
                     <li class="navbar-item fs-10 m-0 text-center"><p class="m-0 text-danger">TOMATO</p><p class="m-0 text-white">ANIMES</p></li>
                 </ul>
-                <ul class="navbar-nav d-flex gap-5 align-items-center" style="height: 50px;">
+                <img src="style/imagens/menuIcon.svg" id="menu" alt="">
+                <ul class="navbar-nav d-flex gap-5 align-items-center justify-content-center" style="height: 50px;" id="menuopcoes">
                     <li class="navbar-item text-white"><a href="HOME" class="nav-link text-danger">INÍCIO</a></li>
                     <li class="navbar-item text-white"><a href="mangas.html" class="nav-link text-white">MANGAS</a></li>
                     <li class="navbar-item text-white"><a href="favoritos.html" class="nav-link text-white">FAVORITOS</a></li>
@@ -116,17 +118,17 @@ COMEÇO MAIN
                     <button type="button" data-bs-target="#db" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#db" data-bs-slide-to="1"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#db" data-bs-slide="prev">
+                <button class="carousel-control-prev" style="width: 5%;" type="button" data-bs-target="#db" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#db" data-bs-slide="next">
+                <button class="carousel-control-next" style="width: 5%;" type="button" data-bs-target="#db" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
                     <div class="carousel-item active">
                         <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
-                                <div class="container" style="background-image: url(style/imagens/animes/animes-db/classroom\ of\ the\ elite.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                                <div class="container m-0 p-0" style="background-image: url(style/imagens/animes/animes-db/classroom\ of\ the\ elite.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
                                 </div>
                             </a>        
                             <a href="#" target="_blank" class="container-fluid m-0 p-0">
@@ -182,10 +184,10 @@ COMEÇO MAIN
                     <button type="button" data-bs-target="#AVT" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#AVT" data-bs-slide-to="1"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#AVT" data-bs-slide="prev">
+                <button class="carousel-control-prev" style="width: 5%;" type="button" data-bs-target="#AVT" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#AVT" data-bs-slide="next">
+                <button class="carousel-control-next" style="width: 5%;" type="button" data-bs-target="#AVT" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
@@ -248,10 +250,10 @@ COMEÇO MAIN
                     <button type="button" data-bs-target="#ROC" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#ROC" data-bs-slide-to="1"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#ROC" data-bs-slide="prev">
+                <button class="carousel-control-prev" style="width: 5%;" type="button" data-bs-target="#ROC" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#ROC" data-bs-slide="next">
+                <button class="carousel-control-next" style="width: 5%;" type="button" data-bs-target="#ROC" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
@@ -314,10 +316,10 @@ COMEÇO MAIN
                     <button type="button" data-bs-target="#SOL" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#SOL" data-bs-slide-to="1"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#SOL" data-bs-slide="prev">
+                <button class="carousel-control-prev" style="width: 5%;" type="button" data-bs-target="#SOL" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#SOL" data-bs-slide="next">
+                <button class="carousel-control-next" style="width: 5%;" type="button" data-bs-target="#SOL" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">
@@ -380,10 +382,10 @@ COMEÇO MAIN
                     <button type="button" data-bs-target="#TVG" data-bs-slide-to="0" class="active"></button>
                     <button type="button" data-bs-target="#TVG" data-bs-slide-to="1"></button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#TVG" data-bs-slide="prev">
+                <button class="carousel-control-prev" style="width: 5%;" type="button" data-bs-target="#TVG" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#TVG" data-bs-slide="next">
+                <button class="carousel-control-next" style="width: 5%;" type="button" data-bs-target="#TVG" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
                 <div class="carousel-inner" style="overflow: hidden;">

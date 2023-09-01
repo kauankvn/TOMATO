@@ -7,26 +7,27 @@
 #pagina{
     width: 100%;
     height: 1050px;
-    background-color: #101010;
+    background-color: #212529;
 }
 
 header{
-    margin: 0px auto;
-    width: 30%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#logo{
-    background-image: url(imagens/happy\ tomato.png);
+.logo{
+    background-image: url(imagens/Tomato_luffy-removebg-preview.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100px;
-    height: 100px;
-    margin: 50px 0px 50px 0px;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
 }
 
 #logo:hover{
@@ -34,11 +35,11 @@ header{
 }
 
 main{
-    width: 30%;
+    width: 100%;
     height: auto;
-    margin: 0px auto;
     display: flex;
     justify-content: center;
+    margin: 0 0 20px 0;
 }
 
 #titulo{
@@ -48,17 +49,18 @@ main{
 }
 
 nav{
-    width: 30%;
+    width: 100%;
     height: auto;
-    margin: 0px auto;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input{
     background-color: rgb(199, 43, 43);
     border-radius: 2px;
     border: solid rgb(199, 43, 43);
-    width: 100%;
+    width: 30%;
     height: 30px;
     margin: 10px auto;
 }
@@ -73,16 +75,15 @@ input:hover{
     color: rgb(0, 0, 0);
 }
 
-footer{
-    width: 30%;
+#finalizar{
+    width: 100%;
     height: auto;
-    margin: 0px auto;
     display: flex;
     justify-content: center;
 }
 
 button{
-    width: 55%;
+    width: 25%;
     height: 30px;
     color: black;
     border-radius: 2px;
@@ -90,14 +91,16 @@ button{
 }
 
 #voltar{
-    margin: 0px auto;
-    width: 30%;
+    width: 100%;
     height: 30px;
-    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
 }
 
 #jogadeladinho{
-    width: 100%;
+    width: 30%;
     height: 30px;
     background-color: rgb(199, 43, 43);
     display: flex;

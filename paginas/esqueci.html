@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BAKA</title>
     <link rel="stylesheet" href="style/esquecisenha.css">
+    <link rel="stylesheet" href="style/media.css">
     <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
 </head>
 <body>
@@ -13,7 +14,7 @@
     <div id="pagina">
         <!--Começo Header  -->
         <header>
-            <div id="logo"></div>
+            <div class="logo"></div>
         </header>
         <!-- Fim Header -->
         <!-- Começo Main -->
@@ -26,16 +27,16 @@
         <!-- Começo Nav -->
         <form action="home.html" method="post">
             <nav>
-                <input type="email" required placeholder="Digite seu email!">
-                <button type="submit" onclick="enviar()">enviar codigo</button>
-                <input type="number" placeholder="Digite o codigo enviado para o seu email!" >
-                <input type="password" placeholder="Digite sua nova senha!">
+                <input class="caixasTextos" type="email" required placeholder="Digite seu email!">
+                <button class="finalizar" type="submit" onclick="enviar()">enviar codigo</button>
+                <input class="caixasTextos" type="number" placeholder="Digite o codigo enviado para o seu email!" >
+                <input class="caixasTextos" type="password" placeholder="Digite sua nova senha!">
             </nav>
             <!-- Fim Nav -->
             <!-- Começo Footer -->
-            <footer>
-                <button type="submit" onclick="recuperar()">Finalizar a recuperação da senha!</button>
-            </footer>
+            <div id="finalizar">
+                <button class="finalizar" type="submit" onclick="recuperar()">Finalizar a recuperação da senha!</button>
+            </div>
             <!-- Fim Footer -->
             <div id="voltar">
                 <div id="jogadeladinho">

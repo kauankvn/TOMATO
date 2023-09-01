@@ -7,11 +7,12 @@
     <title>Registrar-se</title>
     <link rel="stylesheet" href="style/registrar-se.css">
     <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 <body>
     <div id="pagina">
         <header>
-            <div id="logo"></div>
+            <div class="logo"></div>
         </header>
         <main>
             <div id="titulo">
@@ -20,14 +21,14 @@
         </main>
         <form action="home.html" method="post">
             <nav>
-                <input type="text" required placeholder="Digite seu nome!">
-                <input type="text" required placeholder="Digite seu sobrenome!">
-                <input type="email" required placeholder="Digite seu Email!">
-                <input type="password" required placeholder="Digite sua senha!">
+                <input class="caixasTextos" type="text" required placeholder="Digite seu nome!">
+                <input class="caixasTextos" type="text" required placeholder="Digite seu sobrenome!">
+                <input class="caixasTextos" type="email" required placeholder="Digite seu Email!">
+                <input class="caixasTextos" type="password" required placeholder="Digite sua senha!">
             </nav>
-            <footer>
-                <button type="submit" onclick="finalizar()">finalizar registro!</button>
-            </footer>
+            <div id="finalizar">
+                <button class="finalizar" type="submit" onclick="finalizar()">finalizar registro!</button>
+            </div>
         </form>    
         <div id="voltar">
             <div id="jogadeladinho">
