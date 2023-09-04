@@ -7,27 +7,33 @@
     <title>Favoritos</title>
     <link rel="shortcut icon" href="style/imagens/logo.webp" type="image/x-icon">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/media.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 COMEÇO HEADER(NAV)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
-    <div class="container-fluid bg-dark p-0 m-0" style="height: 95vh;">
-        <header class="container-fluid p-0" style="height: 50px;" >
+    <div class="container-fluid bg-dark p-0 m-0" style="height: 100vh;" id="pagina">
+        <header class="container-fluid p-0" id="nav">
             <nav class="nav navbar-expand-sm d-flex justify-content-between">
-                <ul class="navbar-nav d-flex align-items-center">
+                <ul class="navbar-nav">
                     <li class="navbar-item"><img src="style/imagens/logo.webp" alt="" style="margin: 0px 5px 0px 10px;"></li>
-                    <li class="navbar-item fs-10 m-0 text-center"><p class="m-0 text-danger">TOMATO</p><p class="m-0 text-white">FAVORITOS</p></li>
+                    <li class="navbar-item fs-10 m-0 text-center"><p class="m-0 text-danger">TOMATO</p><p class="m-0 text-white">ANIMES</p></li>
                 </ul>
-                <ul class="navbar-nav d-flex gap-5 align-items-center" style="height: 50px;">
-                    <li class="navbar-item text-white"><a href="home.html" class="nav-link text-white">INÍCIO</a></li>
-                    <li class="navbar-item text-white"><a href="mangas.html" class="nav-link text-white">MANGAS</a></li>
-                    <li class="navbar-item text-white"><a href="favoritos.html" class="nav-link text-danger">FAVORITOS</a></li>
-                    <li class="navbar-item text-white"><a href="Perfil.html" class="nav-link text-white">PERFIL</a></li>
+                <ul class="m-0 p-0">
+                    <img src="style/imagens/menuIcon.svg" id="menu" alt="">
+                    <ul class="navbar-nav gap-5 align-items-center justify-content-center" style="height: auto;" id="menuopcoes">
+                        <li class="navbar-item text-white text-center"><a href="home.html" class="nav-link text-white">INÍCIO</a></li>
+                        <li class="navbar-item text-white text-center"><a href="mangas.html" class="nav-link text-white">MANGAS</a></li>
+                        <li class="navbar-item text-white text-center"><a href="favoritos.html" class="nav-link text-danger">FAVORITOS</a></li>
+                        <li class="navbar-item text-white text-center"><a href="Perfil.html" class="nav-link text-white">PERFIL</a></li>
+                    </ul>
                 </ul>
-                <ul class="navbar-nav d-flex align-items-center">
-                    <li class="navbar-item"><input class="form-control text-white" type="text" placeholder="Pesquisar" id="Pesquisar"></li>
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <input class="form-control text-white" type="text" placeholder="Pesquisar" id="Pesquisar">
+                    </li>
                     <li class="navbar-item" id="perfil">
                         <a href="Perfil.html" class="nav-link text-danger">
                             <img src="style/imagens/ada.jpg" alt="imagem da conta" style="border-radius: 100%; width: 40px;  margin: 0px 20px 0px 0px;">
@@ -55,32 +61,32 @@ COMEÇO MAIN
                 <button class="carousel-control-next" style="width: 5%;" type="button" data-bs-target="#MLDM" data-bs-slide="next">
                      <span class="carousel-control-next-icon"></span>
                 </button>
-                <div class="carousel-inner" style="overflow: hidden;"> 
-                    <div class="carousel-item active">
-                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
-                            <div id="descricao1" class="container rounded" style=" background-image: url(style/imagens/mangas/manga-em-alta/black\ clover.png); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                <div class="carousel-inner" style="overflow: hidden; height: auto;"> 
+                    <div class="carousel-item active" style="height: auto;">
+                        <div class="carrousel" style="height: auto;">
+                            <div id="descricao1" class="container rounded" style=" background-image: url(style/imagens/mangas/manga-em-alta/black\ clover.png); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
-                            <div id="descricao2" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/blue\ lock.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            <div id="descricao2" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/blue\ lock.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
-                            <div id="descricao3" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/jujutsu\ kaisen.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            <div id="descricao3" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/jujutsu\ kaisen.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
-                            <div id="descricao4" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/Kaiju8.webp); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            <div id="descricao4" class="container rounded" style="background-image: url(style/imagens/mangas/manga-em-alta/Kaiju8.webp); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
-                            <div id="descricao5" class="container rounded" style="background-image: url(style/imagens/mangas/manga-recomendações/iruma-kun.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            <div id="descricao5" class="container rounded" style="background-image: url(style/imagens/mangas/manga-recomendações/iruma-kun.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="d-flex justify-content-around align-items-center " style="height: 500px;">
-                            <div id="descricao6" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/demon-slayer.webp); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                    <div class="carousel-item" style="height: auto;">
+                        <div class="carrousel" style="height: auto;">
+                            <div id="descricao6" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/demon-slayer.webp); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>       
-                            <div id="descricao7" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/tengoku\ daimakyo.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            <div id="descricao7" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/tengoku\ daimakyo.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
-                            <div id="descricao8" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/gokushufudou-poster.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            <div id="descricao8" class="container rounded" style="background-image: url(style/imagens/animes/animes-av/gokushufudou-poster.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
-                            <div id="descricao9" class="container rounded" style="background-image: url(style/imagens/animes/animes-rm/tomo-chan.jpe); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;">
+                            <div id="descricao9" class="container rounded" style="background-image: url(style/imagens/animes/animes-rm/tomo-chan.jpe); background-position: center; background-size: cover; height: 600px; width: 300px; ">
                             </div>
-                            <div id="descricao10" class="container rounded" style="background-image: url(style/imagens/animes/animes-sol/komi\ can\'t.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; margin: 0px auto;" >
+                            <div id="descricao10" class="container rounded" style="background-image: url(style/imagens/animes/animes-sol/komi\ can\'t.jpg); background-position: center; background-size: cover; height: 600px; width: 300px; " >
                             </div>
                         </div>
                     </div>   
@@ -177,10 +183,6 @@ COMEÇO MAIN
                 </div>
             </div>
         </main>
-    </div>
-<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-FIM MAIN    
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 COMEÇO FOOTER   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -190,11 +192,17 @@ COMEÇO FOOTER
 <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 FIM FOOTER    
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FIM MAIN    
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
     <script src="js/code.jquery.com_jquery-3.7.0.js"></script>
+    <script src="js/scriptmenu.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

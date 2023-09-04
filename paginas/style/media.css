@@ -28,4 +28,29 @@
     #menuopcoes{
         display: none;
     }
+    #perfil{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){ 
+    #comeco{
+        align-items: flex-end;
+    }    
+} 
+@media screen and (min-width: 900px){ 
+    #menuopcoes{
+        display: flex;
+    }    
+} 
+@media screen and (max-width: 900px){
+    .carrousel{
+        display: block;
+    }
+    #pagina{
+        height: auto;
+    }
+    .Suika{
+        display: block;
+    }
 }
